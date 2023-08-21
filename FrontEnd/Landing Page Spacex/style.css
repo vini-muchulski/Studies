@@ -1,0 +1,260 @@
+*{  /* asterisco relaciona todo o conteudo da pagina. */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+
+header {
+    padding: 2rem;
+    background-color: #EBEBEB;
+    box-shadow:  0 5px 10px #D6D6D6;
+    position: sticky; /* header fica fixo ao descer a pagina*/
+    top: 0;
+    left: 0;
+}
+
+button{
+    cursor: pointer;
+}
+nav {
+    display: flex; /* organiza os elementos em linha - elemt principal -  e coluna  - elemento sec - se reorganiza com o tamanho disponivel */
+    justify-content: space-between; /* organiza os elementos nas linhas - dimensao primaria*/
+    align-items: center; /* organiza os elementos nas colunas - dimensao secundaria*/
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+   
+}
+
+nav ul a{
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+#logo {
+ border: 0px solid black;
+ padding: 10px;
+ /*width: 30px; */
+}
+
+.nav-item{
+    color: #074C88;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color: #4589c4;
+}
+
+main{
+    padding: 1rem;
+    min-height: 100dvh;
+}
+
+footer{
+    
+    background-color:  #074C88;
+    padding: 0.5rem;
+    color: #D6D6D6;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    font-weight: bold;
+
+    box-shadow:   0 -5px 10px #D6D6D6;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #EBEBEB;
+}
+
+#hero{
+    display: flex;
+    color: #074C88;
+    padding: 2rem ;
+    margin: 2rem;
+
+   
+}
+
+#intro-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro-content > img{
+    width: 100%;
+    margin-left: 2rem;
+    
+}
+
+#explainer-text{
+   display: flex;
+   flex-direction:column;
+   
+
+}
+/* , #explainer-text > h3 */
+#explainer-text > h2, #explainer-text > h3 {
+    margin-bottom: 2rem;
+}
+
+#cta {
+    border: none;
+    padding: 0.9rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #074C88;
+    color: #EBEBEB;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#cta > p{
+    padding: 3px;
+    font-size: 1rem;
+    text-shadow: 1px 1px 10px #D6D6D6;
+}
+
+#cta:hover{
+    background-color: #4589c4;
+}
+
+
+
+
+.foguetes{
+    color: #074C88;
+    text-decoration: none;
+    margin-top: 5rem;
+}
+
+
+#starship_launch{
+    width: 100%;
+}
+
+#rockets{
+    display:inline-block;
+    justify-content:center;
+    align-items: center;
+    margin: 10px 0 0 5px;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+#rockets > h3 {
+    max-width: 60%;
+    
+}
+
+.foguetes{
+    padding: 10px 0;
+}
+
+#mars{
+    display: flex;
+    margin: 2rem;
+    margin-top: 6rem;
+}
+#mars > article{
+    margin-left: 2rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:baseline;
+    color: black;
+    
+}
+#mars-hope-uae{
+    width: 70%;
+    clip-path: calc();
+    height: 70%;
+    
+}
+
+#paragrafo{
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+
+
+
+#vini{
+    display: flex;
+    color: wheat;
+   /* flex-wrap: wrap;  mostra qnts items podem ficar em uma linha sem ser espremido, se ficar
+    mt espremido muda pra nova linha 
+    
+*/
+
+    justify-content: center;
+    
+    gap: 2rem;
+    
+}
+#vini > article{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+
+        color: wheat;
+        background-color:  #074C88;
+        border-radius: 10px;
+
+        /* padding -espaco de preeenchimento entre conteudo e borda*/
+        padding:1rem;
+        
+
+
+
+       
+}
+
+#vini > article> a{
+    color: wheat;
+    text-decoration: none;
+}
+
+
+
+.imagem-about{
+    max-width: 100px;
+    max-height: 100px;
+    width: 2rem;
+    clip-path: circle();
+    min-width: 100px;
+   min-height: 100px;
+}
+
+
+#scientists{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+    
+#scientists > h2{
+        margin: 2rem 0;
+        color: #074C88;
+    }

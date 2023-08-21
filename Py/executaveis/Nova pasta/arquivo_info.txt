@@ -1,0 +1,10 @@
+
+NOME DA MAQUINA........ DESKTOP-HFVU56F
+ARQUITETURA............ ('64bit', 'WindowsPE')
+SO..................... Windows
+versao so.............. 10
+processador............ AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+versao do python....... 3.11.4
+I P
+Hora local............. 2023-07-18 12:48:49.249951
+User................... Cliente

@@ -1,0 +1,29 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe arquivo de build ativo",
+            "command": "F:\\Programas\\Falcon\\MinGW\\bin\\g++.exe",
+            "args": [
+                "-std=c++17",
+                "-g",
+                "${fileDirname}\\*.cpp", 
+                "-o",
+                "${fileDirname}\\main.exe",
+                "-std=c++17"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarefa gerada pelo Depurador."
+        }
+    ],
+    "version": "2.0.0"
+}
