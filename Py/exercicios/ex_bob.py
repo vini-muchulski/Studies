@@ -31,6 +31,7 @@ def bob(frase):
     
 print(bob("4?"))
 
+
 """
 def response(hey_bob):
     frase = hey_bob.strip()
