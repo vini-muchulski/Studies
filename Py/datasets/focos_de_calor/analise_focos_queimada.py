@@ -53,3 +53,9 @@ df_2007.plot.pie(x="Mês",y="Número")
 #ruim
 
 df
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.barplot(x="Mês",y="Número",data=df_2007)
+plt.xticks(rotation=90)
