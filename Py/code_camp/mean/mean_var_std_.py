@@ -53,7 +53,7 @@ def calculate(list):
         dp_v[i] = np.std(matriz[i])
         dp_h[i] =np.std(matriz[:,i])
 
-    """print(variancia_h)
+    print(variancia_h)
     print(variancia_v)
     print(media_h)
     print(media_v)
@@ -67,7 +67,7 @@ def calculate(list):
     print("Coluna com valor máximo:", coluna_valor_maximo)
 
     print("Linha com valor  minimo:", linha_valor_min)
-    print("Coluna com valor  minimo:", coluna_valor_min)"""
+    print("Coluna com valor  minimo:", coluna_valor_min)
 
 
 
@@ -80,5 +80,7 @@ def calculate(list):
   'sum': [sum_vertical, sum_hori, sum_total]
 }
     return calculations
+
+calculate([0,1,2,3,4,5,6,7,8])
 
 
