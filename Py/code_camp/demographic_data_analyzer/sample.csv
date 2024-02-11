@@ -1,0 +1,11 @@
+,age,workclass,fnlwgt,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,salary
+14160,27,Private,160178,Some-college,10,Divorced,Adm-clerical,Not-in-family,White,Female,0,0,38,United-States,<=50K
+27048,45,State-gov,50567,HS-grad,9,Married-civ-spouse,Exec-managerial,Wife,White,Female,0,0,40,United-States,<=50K
+28868,29,Private,185908,Bachelors,13,Married-civ-spouse,Exec-managerial,Husband,Black,Male,0,0,55,United-States,>50K
+5667,30,Private,190040,Bachelors,13,Never-married,Machine-op-inspct,Not-in-family,White,Female,0,0,40,United-States,<=50K
+7827,29,Self-emp-not-inc,189346,Some-college,10,Divorced,Craft-repair,Not-in-family,White,Male,2202,0,50,United-States,<=50K
+15382,51,Private,108435,Masters,14,Married-civ-spouse,Prof-specialty,Husband,White,Male,0,0,47,United-States,>50K
+4641,58,Self-emp-not-inc,93664,HS-grad,9,Married-civ-spouse,Exec-managerial,Husband,White,Male,15024,0,60,United-States,>50K
+8943,22,Private,148431,HS-grad,9,Never-married,Adm-clerical,Not-in-family,Other,Female,0,0,40,United-States,<=50K
+216,50,Private,313321,Assoc-acdm,12,Divorced,Sales,Not-in-family,White,Female,0,0,40,United-States,<=50K
+5121,50,Private,71417,HS-grad,9,Married-civ-spouse,Craft-repair,Husband,White,Male,3103,0,40,United-States,>50K
