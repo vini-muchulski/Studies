@@ -11,3 +11,9 @@ model = GPT4All(model_name, model_path)
 
 output = model.generate("The capital of United States is ")
 print(output)
+
+output = model.generate("How was Alber Einstein? ")
+print(output)
+
+output = model.generate("What was the general theory? ")
+print(output)
