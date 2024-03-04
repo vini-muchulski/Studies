@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+bot_vini/__init__.py
+bot_vini/__main__.py
+bot_vini/bot.py
+bot_vini.egg-info/PKG-INFO
+bot_vini.egg-info/SOURCES.txt
+bot_vini.egg-info/dependency_links.txt
+bot_vini.egg-info/requires.txt
+bot_vini.egg-info/top_level.txt
+bot_vini/resources/start.png
