@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+bot_web/__init__.py
+bot_web/__main__.py
+bot_web/bot.py
+bot_web.egg-info/PKG-INFO
+bot_web.egg-info/SOURCES.txt
+bot_web.egg-info/dependency_links.txt
+bot_web.egg-info/requires.txt
+bot_web.egg-info/top_level.txt
+bot_web/resources/start.png
