@@ -1,12 +1,13 @@
 import serial
 from datetime import datetime
 import re
-
+import json
 
 # Substitua pela porta serial do seu ESP32
 serial_port = 'COM4'
 baud_rate = 115200
 nome_arquivo = 'dados_sensor.csv'
+arquivo_json = 'dados_sensor.json'
 
 ser = serial.Serial(serial_port, baud_rate)
 
@@ -37,9 +38,20 @@ while True:
     linha_completa = f"{horario}, {temp}, {umidade}"
     print(linha_completa)
     
+    
     # Abre o arquivo CSV no modo de append ('a') para adicionar dados
     with open(nome_arquivo, 'a') as f:
         f.write(linha_completa + '\n')
         
+    dados = {
+            'tempo': horario,
+            'temperatura': temp,
+            'umidade': umidade
+        }
+    linha_json = json.dumps(dados)
+    print(linha_json)
+    
+    with open(arquivo_json, 'a') as fj:
+            fj.write(linha_json + '\n')
         
 #ser.close()
