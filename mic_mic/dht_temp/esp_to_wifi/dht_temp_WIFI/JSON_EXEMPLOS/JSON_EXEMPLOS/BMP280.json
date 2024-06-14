@@ -1,0 +1,10 @@
+{
+    "BMP280": [
+        {
+            "pressure": 0.00,
+            "temperature": 0.00,
+            "altitude": 0.00,
+            "idStation": 0
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "DHT11": [
+        {
+            "temperature": 0.00,
+            "humidity": 0.00,
+            "idStation": 0
+        }
+    ]
+}

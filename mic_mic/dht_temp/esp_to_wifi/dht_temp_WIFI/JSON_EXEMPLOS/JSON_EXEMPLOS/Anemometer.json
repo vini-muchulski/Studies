@@ -1,0 +1,11 @@
+{
+    "Anemometer": [
+        {
+            "windSpeed": 0.00,
+            "windDirection": "Norte",
+            "windAngle": 0,
+            
+            "idStation": 0
+        }
+    ]
+}
