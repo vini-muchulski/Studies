@@ -17,20 +17,20 @@ def enviar_dados(dados, url):
 });"""
  
 ##dht
-post_data = '{"idStation": "1", "temperatura": "18.60", "umidade": "87.00"}'
-url = "https://estacao-meteorologica.vercel.app/dht"
+#post_data = '{"idStation": "00", "temperatura": "18.60", "umidade": "87.00"}'
+#url = "https://estacao-meteorologica.vercel.app/dht"
 
 ##pluviometer
-#post_data = '{"rainfall": "10.50", "idStation": "001"}'
+#post_data = '{"rainfall": "10.50", "idStation": "00"}'
 #url = "https://estacao-meteorologica.vercel.app/pluviometer"
 
 ##bmp
-#post_data = '{ "pressure": "1013.25", "temperature": "25.5", "altitude": "150.0", "idStation": "001" }'
-#url = "https://estacao-meteorologica.vercel.app/bmp"
+post_data = '{ "pressure": "1013.25", "temperature": "25.5", "altitude": "150.0", "idStation": "00" }'
+url = "https://estacao-meteorologica.vercel.app/bmp"
 
 ##anemometer
-#post_data = '{"windSpeed": "5.50", "windDirection": "N", "windAngle": "0.0", "idStation": "001"}'
-#post_data = '{"windSpeed": 5.50, "windDirection": "N", "windAngle": 0.0, "idStation": "001"}'
+#post_data = '{"windSpeed": "5.50", "windDirection": "N", "windAngle": "0.0", "idStation": "00"}'
+#post_data = '{"windSpeed": 5.50, "windDirection": "N", "windAngle": 0.0, "idStation": "00"}'
 #url = "https://estacao-meteorologica.vercel.app/anemometer"
 
 dados = json.loads(post_data)  # Tenta analisar a string como JSON
