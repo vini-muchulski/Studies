@@ -1,0 +1,67 @@
+Vinicius
+
+QUESTAO 1:
+ Responda ao lado da questão o valor de i depois de executada as seguintes expressões.
+ Considerar o valor inicial, antes da execução de cada item, de i como sendo 10: I = 10;
+ (a) i = 0; I = 10
+ (b) i = i; I = 10
+ (c) i = ++i; incrementa a variavel em uma unidade, i = 11
+ (d) i++; incrementa a variavel em uma unidade, i = 11
+ (e) i−−; decremente em uma unidade. i = 9
+ (f) ++i; incrementa, i = 11
+ (g) i += i ; soma o valor que a variavel tinha com ela mesma; i = 10 + 10 = 20 
+
+
+
+questao 2: 
+"""Escreva um loop que imprima de 1 a 100. Mas, se o número for divisível por 3,
+ imprima Fizz no lugar do número; se o número for divisível por 5, imprima Buzz no
+ lugar do número; e se o número for divisível por 3 e 5, imprima FizzBuzz"""
+
+for i in range(1,101):
+
+    if(i%3 == 0 and i%5 == 0):
+        print("FizzBuzz")
+
+    elif(i%3 == 0):
+        print("Fizz")
+
+    elif(i%5 == 0):
+        print("buzz")
+
+    else:
+        print(i)
+
+questao 3: 
+""" Escreva uma função que implemente de um Bubble Sort. Dica: o algorítimo Bubble
+ Sort possui complexidade O(n2)."""
+
+
+lista = [6,8,4,1,2]
+aux = 0
+for contador in range(1,len(lista)):
+    for i in range(0,len(lista)-1):
+        if(lista[i]>lista[i+1]): #realiza a troca de elementos, desloca o maior para a frente e puxa o menor
+            aux = lista[i]
+            lista[i] = lista[i+1]
+            lista[i+1] = aux
+
+
+print(lista)
+
+
+4. Quais afirmações são verdadeiras ou falsas sobre multithreading?
+ (a) O acesso concorrente à uma mesma localização de memória é uma “condição de corrida” - verdadeira
+
+ (b) Para evitar o acesso concorrente à um mesmo dado, usa-se uma variável condicional - verdadeira
+
+ (c) Um deadlock ocorre quando uma thread escreve em uma variável enquanto outra
+ thread está lendo.-  falsa
+
+ (d) Mutex é abreviação de Mutual Exclusion e é utilizado para evitar acessos con
+correntes a uma mesma variável - verdadeira
+
+ (e) Toda estrutura de dados deve ser protegida por um mutex - falsa
+
+ (f) Se um algoritmo roda em tempo X, o mesmo algoritmo dividido em duas threads
+ usará tempo X/2 - falsa
